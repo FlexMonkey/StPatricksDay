@@ -15,7 +15,7 @@ view.layer.addSublayer(layer)
 
 XCPlaygroundPage.currentPage.liveView = view
 
-let points: [CGPoint] = 0.stride(to: M_PI * 4, by: 0.01).map
+let points: [CGPoint] = 0.stride(to: M_PI * 2, by: 0.01).map
 {
     let radius = (sin(2 * $0) + 0.25 * sin(6.0 * $0)) * 300
     
